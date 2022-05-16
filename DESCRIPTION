@@ -1,0 +1,33 @@
+Package: clamqc
+Type: Package
+Title: QC of CLaM Workflows
+Version: 1.0.0
+Authors@R: c(
+    person("Sean", "Hackett", email = "sean@calicolabs.com", role = "aut"),
+    person("Phillip", "Seitzer", email = "phillipseitzer@calicolabs.com", role = "aut"))
+Author: Sean Hackett
+Maintainer: Sean Hackett <sean@calicolabs.com>
+Description: Calico Lipidomics and Metabolomics QC-associated R functions 
+    features methods for working with .mzrollDB mass spec datasets.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 3.1.0)
+Imports:
+    clamr,
+	dbplyr,
+    debugr,
+    dplyr,
+    furrr,
+    ggplot2,
+    purrr,
+    stringr,
+    tibble,
+    tidyr (>= 1.0.0),
+Suggests: 
+    RSQLite,
+    DT,
+    knitr,
+    rmarkdown
+LazyData: true
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr
