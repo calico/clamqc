@@ -1,0 +1,16 @@
+reference:
+- title: "Standards"
+  desc: "Compare internal and external standards across samples"
+- contents:
+  - qc_extract_standards
+  - standard_qc_peakgroups
+  - qc_standard_plots
+  - qc_standard_summaries
+- title: "Basepeak"
+  desc: "Inspecting the most abundant mass for a given scan"
+- contents:
+  - mzR_basepeak
+  - basepeak_comparison
+template:
+  params:
+    bootswatch: flatly
