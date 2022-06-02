@@ -5,12 +5,9 @@ For a detailed description, please see [the documentation website](https://solid
 
 # Installation
 ```
-# Install the 'githubinstall' package from CRAN, if you have not already done so.
-install.packages("githubinstall")
+# Install clamr using devtools (clamdb dependency)
+devtools::install_github("https://github.com/calico/clamr.git")
 
-# Install dependency package clamr using githubinstall
-githubinstall::githubinstall("clamr")
-
-# Install clamqc using githubinstall
-githubinstall::githubinstall("clamqc")
+# Install clamqc using devtools
+devtools::install_github("https://github.com/calico/clamqc.git")
 ```
